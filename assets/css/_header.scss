@@ -1,12 +1,9 @@
 // Navbar
 header {
-  $linkColor: rgb(196, 193, 193);
-  $backgroundColor: #111b29;
-
-  background-color: $backgroundColor;
-
   h4 {
     color: $linkColor;
+    max-width: 620px;
+    overflow: hidden;
   }
 
   .navbar {

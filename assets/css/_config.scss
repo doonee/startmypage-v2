@@ -1,16 +1,27 @@
 // Global
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
 
+$rgba-black-light: rgba(0, 0, 0, 0.35);
+$rgba-black-strong: rgba(0, 0, 0, 0.7);
+$linkColor: rgba(196, 193, 193, 1);
+
 *,
 body {
   background-color: #222222;
   font-family: "Nanum Gothic", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
 }
 
 .rgba-black-light {
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: $rgba-black-light;
 }
 
 .rgba-black-strong {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: $rgba-black-strong;
+}
+
+.bgcolor-transparent {
+  background-color: transparent !important;
 }
