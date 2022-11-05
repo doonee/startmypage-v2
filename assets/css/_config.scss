@@ -1,27 +1,35 @@
 // Global
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
 
-$rgba-black-light: rgba(0, 0, 0, 0.35);
-$rgba-black-strong: rgba(0, 0, 0, 0.7);
-$linkColor: rgba(196, 193, 193, 1);
+$rgba-background-color: rgba(20, 20, 20, 0.8);
+$rgba-black-light-color: rgba(0, 0, 0, 0.35);
+$rgba-black-strong-color: rgba(0, 0, 0, 0.7);
+$rgba-gray-color: rgba(196, 193, 193, 1);
+$rgba-gray-dark-color: rgba(196, 193, 193, 0.8);
 
 *,
 body {
-  background-color: #222222;
   font-family: "Nanum Gothic", sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 12px;
+}
+
+body {
+  background-color: $rgba-background-color;
 }
 
 .rgba-black-light {
-  background-color: $rgba-black-light;
+  background-color: $rgba-black-light-color;
 }
 
 .rgba-black-strong {
-  background-color: $rgba-black-strong;
+  background-color: $rgba-black-strong-color;
 }
 
 .bgcolor-transparent {
   background-color: transparent !important;
+}
+
+.transparent-input {
+  // background-color: $rgba-background-color;
+  background-color: darken($color: $rgba-gray-dark-color, $amount: 5) !important;
+  border: none;
 }

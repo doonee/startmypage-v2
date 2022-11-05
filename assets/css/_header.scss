@@ -1,7 +1,7 @@
 // Navbar
 header {
-  h4 {
-    color: $linkColor;
+  h1 {
+    color: $rgba-gray-color;
     max-width: 620px;
     overflow: hidden;
   }
@@ -12,13 +12,14 @@ header {
     }
     .navbar-nav {
       .nav-item {
+        font-size: 0.75rem;
         .nav-link {
-          color: $linkColor;
+          color: $rgba-gray-color;
           text-align: center;
         }
         .dropdown-menu {
           .dropdown-item {
-            color: #9e9e9e !important;
+            color: $rgba-gray-dark-color !important;
             font-size: 0.85rem;
           }
         }
