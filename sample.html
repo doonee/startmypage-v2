@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout07-1</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(89, 83, 124);
+      }
+
+      #wrap {
+        width: 1200px;
+        margin: 0 auto;
+        background-color: rgb(101, 125, 98);
+      }
+
+      #header {
+        height: 100px;
+        background-color: rgb(121, 86, 118);
+      }
+
+      #banner-section {
+        height: 200px;
+        background-color: rgb(125, 121, 105);
+      }
+
+      #content-section1 {
+        overflow: hidden;
+        height: 300px;
+        background-color: rgb(127, 91, 108);
+      }
+
+      #content-section1 #nav1 {
+        float: left;
+        width: 30%;
+        height: 300px;
+        background-color: rgb(141, 148, 133);
+      }
+
+      #content-section1 #article1 {
+        float: left;
+        width: 70%;
+        height: 150px;
+        background-color: rgb(138, 137, 137);
+      }
+
+      #content-section1 #article2 {
+        float: left;
+        width: 70%;
+        height: 150px;
+        background-color: rgb(121, 128, 124);
+      }
+
+      #content-section2 {
+        clear: both;
+        overflow: hidden;
+        height: 200px;
+        background-color: rgb(135, 137, 111);
+      }
+
+      #content-section2 #article3 {
+        float: left;
+        width: 33.3333%;
+        height: 200px;
+        background-color: rgb(174, 174, 141);
+      }
+
+      #content-section2 #article4 {
+        float: left;
+        width: 33.3333%;
+        height: 200px;
+        background-color: rgb(158, 139, 150);
+      }
+
+      #content-section2 #article5 {
+        float: left;
+        width: 33.3333%;
+        height: 200px;
+        background-color: rgb(135, 151, 151);
+      }
+
+      #content-section3 {
+        clear: both;
+        height: 200px;
+        display: flex;
+        /* 세로 중앙정렬 */
+        align-items: center;
+        /* 가로 중앙정렬 */
+        justify-content: center;
+        background-color: rgb(112, 130, 119);
+      }
+
+      #content-section3 .gallery-item {
+        width: 23%;
+        height: 150px;
+        margin: 1%;
+        border-radius: 5px;
+        background-color: rgb(73, 81, 81);
+      }
+
+      #footer {
+        height: 100px;
+        background-color: rgb(171, 145, 145);
+      }
+
+      @media (max-width: 1240px) {
+        #wrap {
+          width: 100%;
+        }
+
+        #content-section2 #article3,
+        #content-section2 #article4 {
+          width: 50%;
+        }
+
+        #content-section2 #article5 {
+          display: none;
+        }
+
+        #content-section3 > article:nth-child(4) {
+          display: none;
+        }
+      }
+
+      @media (max-width: 768px) {
+        #content-section2 #article3,
+        #content-section2 #article4 {
+          width: 100%;
+          height: 100px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        #content-section1 #nav1,
+        #content-section1 #article1,
+        #content-section1 #article2 {
+          width: 100%;
+          height: 100px;
+        }
+
+        #content-section3 {
+          height: 500px;
+          /* 세로정렬 */
+          flex-flow: column nowrap;
+        }
+
+        #content-section3 .gallery-item {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="wrap">
+      <header id="header">header</header>
+      <section id="banner-section">banner</section>
+      <section id="content-section1">
+        <nav id="nav1">nav</nav>
+        <article id="article1">article1</article>
+        <article id="article2">article2</article>
+      </section>
+      <section id="content-section2">
+        <article id="article3">article3</article>
+        <article id="article4">article4</article>
+        <article id="article5">article5</article>
+      </section>
+      <section id="content-section3">
+        <article class="gallery-item">gallery1</article>
+        <article class="gallery-item">gallery2</article>
+        <article class="gallery-item">gallery3</article>
+        <article class="gallery-item">gallery4</article>
+      </section>
+      <footer id="footer">footer</footer>
+    </div>
+  </body>
+</html>
