@@ -1,27 +1,14 @@
 // Navbar
 header {
-  h1 {
-    color: $rgba-gray-color;
-    max-width: 620px;
-    overflow: hidden;
-  }
-
   .navbar {
-    .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
+    // .navbar-toggler-icon {
+    //   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    // }
     .navbar-nav {
       .nav-item {
         font-size: 0.75rem;
         .nav-link {
-          color: $rgba-gray-color;
           text-align: center;
-        }
-        .dropdown-menu {
-          .dropdown-item {
-            color: $rgba-gray-dark-color !important;
-            font-size: 0.85rem;
-          }
         }
       }
     }

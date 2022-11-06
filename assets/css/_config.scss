@@ -1,7 +1,6 @@
 // Global
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
 
-$rgba-background-color: rgba(20, 20, 20, 0.8);
 $rgba-black-light-color: rgba(0, 0, 0, 0.35);
 $rgba-black-strong-color: rgba(0, 0, 0, 0.7);
 $rgba-gray-color: rgba(196, 193, 193, 1);
@@ -13,7 +12,7 @@ body {
 }
 
 body {
-  background-color: $rgba-background-color;
+  background-color: $rgba-gray-color;
 }
 
 .rgba-black-light {
@@ -29,7 +28,6 @@ body {
 }
 
 .transparent-input {
-  // background-color: $rgba-background-color;
   background-color: darken($color: $rgba-gray-dark-color, $amount: 5) !important;
   border: none;
 }

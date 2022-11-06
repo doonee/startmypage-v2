@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  background-color: rgba(20, 20, 20, 0.8);
+  background-color: rgb(196, 193, 193);
 }
 
 .rgba-black-light {
@@ -25,22 +25,9 @@ body {
   border: none;
 }
 
-header h1 {
-  color: rgb(196, 193, 193);
-  max-width: 620px;
-  overflow: hidden;
-}
-header .navbar .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
 header .navbar .navbar-nav .nav-item {
   font-size: 0.75rem;
 }
 header .navbar .navbar-nav .nav-item .nav-link {
-  color: rgb(196, 193, 193);
   text-align: center;
-}
-header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
-  color: rgba(196, 193, 193, 0.8) !important;
-  font-size: 0.85rem;
 }/*# sourceMappingURL=main.css.map */
