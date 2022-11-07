@@ -13,7 +13,6 @@ body {
 
 body {
   background-color: $rgba-gray-color;
-  margin-top: 240px;
 }
 
 .rgba-black-light {
@@ -34,4 +33,10 @@ body {
     $amount: 5
   ) !important;
   border: none;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
 }
