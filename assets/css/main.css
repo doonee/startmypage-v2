@@ -31,4 +31,9 @@ header .navbar .navbar-nav .nav-item {
 }
 header .navbar .navbar-nav .nav-item .nav-link {
   text-align: center;
+  padding: 0;
+}
+header .navbar .navbar-nav .nav-item .nav-link > p {
+  padding: 0;
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */
