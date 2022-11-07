@@ -13,6 +13,7 @@ body {
 
 body {
   background-color: $rgba-gray-color;
+  margin-top: 240px;
 }
 
 .rgba-black-light {
@@ -28,6 +29,9 @@ body {
 }
 
 .transparent-input {
-  background-color: darken($color: $rgba-gray-dark-color, $amount: 5) !important;
+  background-color: darken(
+    $color: $rgba-gray-dark-color,
+    $amount: 5
+  ) !important;
   border: none;
 }
