@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
 *,
 body {
   font-family: "Nanum Gothic", sans-serif;
@@ -39,4 +50,19 @@ header .navbar .navbar-nav .nav-item .nav-link {
 header .navbar .navbar-nav .nav-item .nav-link > p {
   padding: 0;
   margin: 0;
+}
+
+.grid {
+  margin: 0.3rem auto;
+}
+.grid .grid-item {
+  width: 295px;
+  height: auto;
+  line-height: 200%;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #555;
+  border-top: 5px solid #999;
+  box-sizing: border-box;
 }/*# sourceMappingURL=main.css.map */

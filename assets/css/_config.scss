@@ -1,6 +1,17 @@
 // Global
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
 $rgba-black-light-color: rgba(0, 0, 0, 0.35);
 $rgba-black-strong-color: rgba(0, 0, 0, 0.7);
 $rgba-gray-color: rgba(196, 193, 193, 1);
