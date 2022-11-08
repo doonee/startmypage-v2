@@ -25,6 +25,15 @@ body {
   height: 100%;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .rgba-black-light {
   background-color: $rgba-black-light-color;
 }
@@ -45,9 +54,10 @@ body {
   border: none;
 }
 
-@media screen and (max-width: 320px) {
+// 갤럭시 폴더
+@media screen and (max-width: 280px) {
   html {
-    width: 320px;
+    width: 280px;
     overflow: auto;
   }
 }

@@ -3,10 +3,8 @@
   margin: 0.3rem auto;
 
   .grid-item {
-    //display: block;
-    width: 300px;
+    width: 260px; // 갤럭시 폴더: 280px
     height: auto;
-    // float: left;
     line-height: 200%;
     margin-bottom: 5px;
     padding: 5px;
@@ -16,5 +14,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    // display: block;
+    // float: left;
   }
 }
