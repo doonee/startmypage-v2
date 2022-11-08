@@ -20,9 +20,10 @@ body {
   font-family: "Nanum Gothic", sans-serif;
 }
 
-// body {
-//   background-color: $rgba-gray-color;
-// }
+body {
+  width: 100%;
+  height: 100%;
+}
 
 .rgba-black-light {
   background-color: $rgba-black-light-color;
@@ -42,6 +43,13 @@ body {
     $amount: 5
   ) !important;
   border: none;
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    width: 320px;
+    overflow: auto;
+  }
 }
 
 @media (min-width: 576px) {
