@@ -3,19 +3,17 @@
   margin: 0.3rem auto;
 
   .grid-item {
-    width: 260px; // 갤럭시 폴더: 280px
-    height: auto;
-    line-height: 200%;
+    width: 260px;
+    min-width: 260px; // 갤럭시 폴더: 280px
+    font-size: 0.9rem;
+    word-break: break-all; // 문단을 전체적으로 채워서 좀 더 깔끔하게 보임.
     margin-bottom: 5px;
     padding: 5px;
-    font-size: 14px;
     border: 1px solid #888;
     border-top: 5px solid #999;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    // display: block;
-    // float: left;
 
     h6 {
       text-align: center;

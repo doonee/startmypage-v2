@@ -19,3 +19,4 @@ const showBookmarkModal = () => {
     .classList.add("animate__animated", "animate__pulse");
   groupModal.show();
 };
+//showBookmarkModal();
