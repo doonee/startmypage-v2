@@ -37,6 +37,13 @@
       a:hover {
         color: gray;
       }
+      i {
+        color: gray;
+        cursor: pointer;
+      }
+      i:hover {
+        color: orange;
+      }
     }
 
     p:nth-child(even) {

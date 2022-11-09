@@ -111,6 +111,13 @@ header .navbar .navbar-nav .nav-item .nav-link > p {
 .grid .grid-item p a:hover {
   color: gray;
 }
+.grid .grid-item p i {
+  color: gray;
+  cursor: pointer;
+}
+.grid .grid-item p i:hover {
+  color: orange;
+}
 .grid .grid-item p:nth-child(even) {
   background-color: rgba(215, 208, 208, 0.5);
 }/*# sourceMappingURL=main.css.map */

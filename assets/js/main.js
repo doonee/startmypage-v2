@@ -12,8 +12,10 @@ var msnry = new Masonry(elem, {
 });
 
 // Modal
-var groupModal = new bootstrap.Modal(document.getElementById("newModal"), {});
-document
-  .getElementById("newModal")
-  .classList.add("animate__animated", "animate__pulse");
-groupModal.show();
+const showBookmarkModal = () => {
+  var groupModal = new bootstrap.Modal(document.getElementById("newModal"), {});
+  document
+    .getElementById("newModal")
+    .classList.add("animate__animated", "animate__pulse");
+  groupModal.show();
+};
