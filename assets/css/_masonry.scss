@@ -16,5 +16,31 @@
     box-sizing: border-box;
     // display: block;
     // float: left;
+
+    h6 {
+      text-align: center;
+      background-color: rgba(136, 136, 136, 0.842);
+      padding: 0.5rem;
+
+      a {
+        color: #fff;
+      }
+    }
+
+    p {
+      padding: 0.4rem;
+      margin-bottom: 0;
+
+      a {
+        color: rgba(0, 0, 0, 0.806);
+      }
+      a:hover {
+        color: gray;
+      }
+    }
+
+    p:nth-child(even) {
+      background-color: rgb(215, 208, 208, 0.5);
+    }
   }
 }

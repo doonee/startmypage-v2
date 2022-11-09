@@ -92,4 +92,25 @@ header .navbar .navbar-nav .nav-item .nav-link > p {
   border: 1px solid #888;
   border-top: 5px solid #999;
   box-sizing: border-box;
+}
+.grid .grid-item h6 {
+  text-align: center;
+  background-color: rgba(136, 136, 136, 0.842);
+  padding: 0.5rem;
+}
+.grid .grid-item h6 a {
+  color: #fff;
+}
+.grid .grid-item p {
+  padding: 0.4rem;
+  margin-bottom: 0;
+}
+.grid .grid-item p a {
+  color: rgba(0, 0, 0, 0.806);
+}
+.grid .grid-item p a:hover {
+  color: gray;
+}
+.grid .grid-item p:nth-child(even) {
+  background-color: rgba(215, 208, 208, 0.5);
 }/*# sourceMappingURL=main.css.map */
