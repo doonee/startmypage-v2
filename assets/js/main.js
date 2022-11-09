@@ -20,7 +20,6 @@ window.onload = function () {
 
   // grab the element
   var el = document.querySelectorAll(".grid > .grid-item > p");
-  console.log(el);
   el.forEach((el) => {
     el.addEventListener("long-press", function (e) {
       // stop the event from bubbling up
