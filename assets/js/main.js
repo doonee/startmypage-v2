@@ -10,3 +10,10 @@ var msnry = new Masonry(elem, {
   horizontalOrder: true, //순서지킴
   //transitionDuration: "0.2s",
 });
+
+// Modal
+var groupModal = new bootstrap.Modal(document.getElementById("newModal"), {});
+document
+  .getElementById("newModal")
+  .classList.add("animate__animated", "animate__pulse");
+groupModal.show();
