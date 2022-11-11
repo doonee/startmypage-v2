@@ -105,6 +105,9 @@ header .navbar .navbar-nav .nav-item .nav-link > p {
   padding: 0.4rem;
   margin-bottom: 0;
 }
+.grid .grid-item p del {
+  color: rgba(128, 128, 128, 0.845);
+}
 .grid .grid-item p a {
   color: rgba(0, 0, 0, 0.806);
 }
