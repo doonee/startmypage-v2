@@ -89,6 +89,13 @@
     }
   }
 }
+@media (min-width: 700px) {
+  .grid {
+    .grid-item {
+      width: 330px;
+    }
+  }
+}
 @media (min-width: 768px) {
   .grid {
     .grid-item {
