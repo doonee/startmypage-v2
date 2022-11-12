@@ -3,9 +3,11 @@
   margin: 0.3rem auto;
 
   .grid-item {
-    width: 260px;
     min-width: 260px; // 갤럭시 폴더: 280px
-    font-size: 0.9rem;
+    //width: 90%; // percent로 하면 깨짐.
+    width: 260px;
+    max-width: 400px;
+    font-size: 1rem;
     word-break: break-all; // 문단을 전체적으로 채워서 좀 더 깔끔하게 보임.
     margin-bottom: 5px;
     padding: 5px;
@@ -50,6 +52,61 @@
 
     p:nth-child(even) {
       background-color: rgb(215, 208, 208, 0.5);
+    }
+  }
+}
+/* clearfix */
+.grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media (min-width: 320px) {
+  .grid {
+    .grid-item {
+      width: 300px;
+    }
+  }
+}
+@media (min-width: 370px) {
+  .grid {
+    .grid-item {
+      width: 340px;
+    }
+  }
+}
+@media (min-width: 430px) {
+  .grid {
+    .grid-item {
+      width: 400px;
+    }
+  }
+}
+@media (min-width: 576px) {
+  .grid {
+    .grid-item {
+      width: 250px;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .grid {
+    .grid-item {
+      width: 360px;
+    }
+  }
+}
+@media (min-width: 992px) {
+  .grid {
+    .grid-item {
+      width: 300px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .grid {
+    .grid-item {
+      width: 360px;
     }
   }
 }
